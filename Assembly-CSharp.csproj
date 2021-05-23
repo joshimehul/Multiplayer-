@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4E14F974-435F-6105-705A-B87CF5D515B1}</ProjectGuid>
+    <ProjectGuid>{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,9 +53,9 @@
     <UnityVersion>2020.1.11f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\TouchController.cs" />
     <Compile Include="Assets\Scripts\PlayerMotor.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\TouchController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
